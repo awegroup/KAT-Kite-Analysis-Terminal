@@ -4,10 +4,10 @@ message: "If you use this software, please cite it, and note the work it builds 
 type: software
 authors:
   - family-names: "Çantav"
-    given-names: "Abdullah"
+    given-names: "Abdullah Tayyip"
     affiliation: "Delft University of Technology"
 license: MIT
-repository-code: "https://github.com/awegroup/kat"
+repository-code: "https://github.com/awegroup/KAT-Kite-Analysis-Terminal"
 abstract: >-
   Synchronised viewer for airborne wind energy flight campaigns: camera video,
   kite position and attitude in 3D, sensor time histories and photogrammetry
