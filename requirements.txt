@@ -1,0 +1,15 @@
+# KAT - Kite Analysis Terminal
+# Python 3.12 is recommended. Some dependencies had no wheels for 3.14 at the
+# time of writing; a 3.12 virtual environment avoids that.
+#
+# ffmpeg and ffprobe are also required, but are not Python packages: pip
+# cannot install them. See the "ffmpeg" section of README.md - in short,
+# winget install Gyan.FFmpeg (Windows), brew install ffmpeg (macOS),
+# sudo apt install ffmpeg (Debian/Ubuntu), or pip install static-ffmpeg.
+# They are needed only to build the video proxies, once per campaign.
+
+numpy>=1.26,<3
+pandas>=2.0,<4
+opencv-python>=4.10,<5
+matplotlib>=3.8,<4
+pillow>=10.0           # only for viewer_tk.py, the alternative window

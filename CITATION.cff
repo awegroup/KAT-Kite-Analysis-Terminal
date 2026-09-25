@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "KAT - Kite Analysis Terminal"
+message: "If you use this software, please cite it, and note the work it builds on."
+type: software
+authors:
+  - family-names: "Çantav"
+    given-names: "Abdullah"
+    affiliation: "Delft University of Technology"
+license: MIT
+repository-code: "https://github.com/awegroup/kat"
+abstract: >-
+  Synchronised viewer for airborne wind energy flight campaigns: camera video,
+  kite position and attitude in 3D, sensor time histories and photogrammetry
+  point clouds on a single time axis.
+references:
+  - type: software
+    title: "photogrammetry_thesis"
+    authors:
+      - family-names: "Haanen"
+        given-names: "P. J."
+        affiliation: "Delft University of Technology"
+    repository-code: "https://github.com/pimjhaanen/photogrammetry_thesis"
+    license: MIT
+    notes: "video_generator.py, adapted here under the MIT licence."
+  - type: data
+    title: "Flightdata09102025"
+    repository-code: "https://github.com/awegroup/Flightdata09102025"
+    notes: "Reference flight log, Kitepower campaign of 9 October 2025."
+  - type: data
+    title: "TUDELFT_V3_KITE"
+    repository-code: "https://github.com/awegroup/TUDELFT_V3_KITE"
+    notes: "V3 wing geometry used for the 3D kite model."

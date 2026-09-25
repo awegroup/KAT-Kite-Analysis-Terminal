@@ -1,0 +1,24 @@
+# Data: large, and owned by the campaign rather than by this repository.
+flightdata/
+*.mp4
+*.MP4
+*.csv
+
+# Exceptions. A negation must sit on its own line: git does not support
+# trailing comments, and a pattern with one silently matches nothing.
+!Photogrammetry/static_experiments/static_test_output/*.csv
+!data/demo_deformation.csv
+
+# Keep the working folder itself, not its contents. "output/" alone would
+# exclude the directory, and nothing inside an excluded directory can be
+# brought back with a negation.
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
