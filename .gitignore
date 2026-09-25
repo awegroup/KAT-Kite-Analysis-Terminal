@@ -15,6 +15,18 @@ flightdata/
 output/*
 !output/.gitkeep
 
+# Camera footage and anything derived from it. The flight videos are
+# confidential: the kite carries a sponsor's logo from an earlier funded
+# project, so no frame, screenshot or rendered composite may be published.
+# Images are ignored by default; adding one has to be a conscious act
+# (git add -f), after checking that no footage is visible in it.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webm
+*.mov
+
 # Python
 __pycache__/
 *.py[cod]

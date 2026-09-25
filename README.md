@@ -65,6 +65,27 @@ virtual environment; run `static_ffmpeg_paths` once to register them.
 ffmpeg is only needed to build the proxies, i.e. once per campaign. The viewer
 and the renderer do not use it.
 
+## Confidentiality of the camera footage
+
+The flight videos, in particular the one from the kite control unit, **must not
+be published**. The kite carries the logo of a car manufacturer involved in an
+earlier funded project under which it was flown, and that footage cannot be
+made public.
+
+In practice:
+
+- no video file, no extracted frame and no rendered composite goes into this
+  repository, or into a paper, slide deck or issue thread;
+- screenshots of the viewer are risky, because the camera panels show the
+  footage. If one is needed, check the whole frame, not just the middle, and
+  crop or cover anything that shows the logo;
+- `.gitignore` excludes video and image files by default, so adding one takes
+  a deliberate `git add -f`. Think before you do.
+
+The flight log itself is public
+([awegroup/Flightdata09102025](https://github.com/awegroup/Flightdata09102025)),
+as are the kite geometry and everything in this repository.
+
 ## Data
 
 No flight data is stored in this repository; it is large and belongs to the
